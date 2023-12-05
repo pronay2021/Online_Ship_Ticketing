@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>MV BAY ONE</title>
+</head>
+
+<body>
+
+
+
+    <div class="main">
+        <div class="navbar">
+           
+                <div class="icon">
+
+                    <img src="image/logo/mv-logo.png" alt="Faild to load image">
+
+                    <div class="name">
+                        <h4>MV BAY ONE</h4>
+                    </div>
+
+                </div>
+
+
+
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SCHEDULE</a></li>
+                    <li><a href="">TICKET</a></li>
+                    <li><a href="LogIn.html">Log In</a></li>
+                    <li><a href="logOut.php">Log Out</a></li>
+
+                </ul>
+            </div>
+
+
+            <div class="basicDeff">
+                <h1 id="deff1">First Ever <br>Cruise Ship Launched in<br>Bangladesh</h1>
+                <h1 id="deff2">Every Thursday & Saturday <br>Chattogram-Saint Martin-Chattogram</h1>
+                <div class="btnForCall">
+                    <button id="btnPage1">Call Now</button>
+                    <button id="btnPage1">01781040135</button>
+                    <button id="btnPage1">01874747374</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <h2 id="ticketHadding">BAY ONE TICKET PRICE</h2>
+
+
+
+    <div class="ticketList">
+        <form action="book" method ="POST">
+         <div class="ticket">
+            <img id="image" src="image/package/economy.jpg" alt="economy">
+            <div class="descrption">
+                <div id="classTitle">Economy (01 Person)</div>
+                <div id="position">Deck E & Deck F - 1st and 2nd Floor</div>
+                <div class="btn_container">
+                    <div class="btn">
+                        <button class="call">CALL NOW</button>
+                        <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="price_trip">
+                <div id="price"> ৳ 3200/-</div>
+                <div id="trip">Round Trip</div>
+            </div>
+        </div>
+
+    </div>
+
+ 
+    <div class="ticket">
+        <img id="image" src="image/package/business.jpg" alt="economy">
+        <div class="descrption">
+            <div id="classTitle">Business (01 Person)</div>
+            <div id="position">Deck 3 -3rd Floor</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price"> ৳ 4000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+
+
+        <div class="ticket">
+        <img id="image" src="image/package/OpenDeck.PNG" alt="economy">
+        <div class="descrption">
+            <div id="classTitle"> Open Deck (01 Person)</div>
+            <div id="position">Deck A -6th Floor</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price"> ৳ 6000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+  <div class="ticket">
+        <img id="image" src="image/package/bunker-bed.jpg" alt="economy">
+        <div class="descrption">
+            <div id="classTitle"> Bunker Bed (01 Person)</div>
+            <div id="position">Deck C -4th Floor</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price"> ৳ 7500/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+    <div class="ticket">
+        <img id="image" src="image/package/presidential.jpg" alt="economy">
+        <div class="descrption">
+            <div id="classTitle">VIP Presidential (02 Person)</div>
+            <div id="position">Deck C -4th Floor</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price"> ৳35,000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+    <div class="ticket">
+        <img id="image" src="image/package/royal.jpg" alt="economy">
+        <div class="descrption">
+            <div id="classTitle"> Royal(02 Person)</div>
+            <div id="position">Deck E -5th Floor</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price">৳55,000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+
+    <div class="ticket">
+        <img id="image" src="image/package/VVIP.jpg" alt="economy">
+        <div class="descrption">
+            <div id="classTitle"> Bunker Bed (01 Person)</div>
+            <div id="position">Deck A – 6th Floor<br> Complimentary <br>
+                Breakfast, Dinner</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price">৳60,000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+
+    <div class="ticket">
+        <img id="image" src="image/package/familyBunker.png" alt="economy">
+        <div class="descrption">
+            <div id="classTitle">Family Bunker Cabin(04 person)</div>
+            <div id="position">Deck A – 6th Floor<br> Complimentary <br>
+                Breakfast, Dinner</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy">
+                        <a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price">৳60,000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+
+
+    <div class="ticket">
+        <img id="image" src="image/package/presidentialplus.png" alt="economy">
+        <div class="descrption">
+            <div id="classTitle">VIP Presidential Plus(04 Person)</div>
+            <div id="position">Deck B–5th Floor<br> Complimentary <br>
+                Breakfast, Dinner</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price">৳70,000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+    </div>
+
+
+    <div class="ticket">
+        <img id="image" src="image/package/emperor.png" alt="economy">
+        <div class="descrption">
+            <div id="classTitle">The Emperor's Cabin(02 Person)</div>
+            <div id="position">Deck A–5th Floor<br> Complimentary <br>
+                Breakfast, Dinner</div>
+            <div class="btn_container">
+                <div class="btn">
+                    <button class="call">CALL NOW</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="price_trip">
+            <div id="price">৳75,000/-</div>
+            <div id="trip">Round Trip</div>
+        </div>
+
+        </form>
+      
+    </div>
+
+
+    <!-- </div> -->
+
+
+    <div class="ticket1">
+
+        <div class="ticketTest">
+
+            <h2 class="ticketP">MV Bayone One Way<span class="ticketPp"> Ticket Price</span></h2>
+
+        </div>
+
+        <div class="rowOne">
+
+            <div class="item1">
+                <h6 class="item1H6">Economy<br></h6>
+                <p class="item1P">2,200TK</p>
+            </div>
+
+
+            <div class="item1">
+                <h6 class="item1H6">Business<br></h6>
+                <p class="item1P">3,000TK</p>
+            </div>
+
+
+            <div class="item1">
+                <h6 class="item1H6">Bunker Bed<br></h6>
+                <p class="item1P">4,400TK</p>
+            </div>
+
+
+            <div class="item1">
+                <h6 class="item1H6">Open Deck<br></h6>
+                <p class="item1P">4,000TK</p>
+            </div>
+
+
+            <div class="item1">
+                <h6 class="item1H66"><br>VIP<br>Presidential<br></h6>
+                <p class="item1Pp">24,000TK</p>
+            </div>
+
+
+            <div class="item1">
+                <h6 class="item1H666">VIP<br>Presidential<br>Plus<br></h6>
+                <p class="item1Ppp">35,000TK</p>
+            </div>
+        </div>
+
+
+        <div class="rowTwo">
+
+            <div class="item2">
+                <h6 class="item2H6">Royal Cabin<br></h6>
+                <p class="item2P">33,000TK</p>
+            </div>
+
+
+            <div class="item2">
+                <h6 class="item2H6">Family Bunker<br></h6>
+                <p class="item2P">35,000TK</p>
+            </div>
+
+
+            <div class="item2">
+                <h6 class="item2H6">VVIP Cabin<br></h6>
+                <p class="item2P">35,000TK</p>
+            </div>
+
+
+            <div class="item2">
+                <h6 class="item2H66">The<br>Emperor’s<br>Cabin<br></h6>
+                <p class="item2Pp">35,000TK</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="shedule">
+        <div class="hading">
+            <h3 class="ticketP">Upcoming Schedule of <span class="ticketPp"> MV Bay One Cruise Ship</span></h2>
+                <h4 id="roat">Chattogram-Saint Martin-Chattogram</h4>
+        </div>
+
+        <div class="sheduleTable">
+            <div class="month">
+                February
+            </div>
+
+            <table id="sheduleTable2">
+                <th id="tableHadding">Depart</th>
+                <th id="tableHadding">Time</th>
+                <th id="tableHadding">Return</th>
+                <th id="tableHadding">Time</th>
+
+                <tr>
+                    <td id="tabledefination">05.02.2022</td>
+                    <td id="tabledefination">10.00 PM (Check in 08.30PM) </td>
+                    <td id="tabledefination">07.02.2022</td>
+                    <td id="tabledefination">09.00 AM (Check In 08.00AM)</td>
+                </tr>
+                <tr>
+                    <td id="tabledefination">10.02.2022</td>
+                    <td id="tabledefination">10.00 PM (Check in 8.30PM) </td>
+                    <td id="tabledefination">12.02.2022</td>
+                    <td id="tabledefination">09.00 AM (Check In 08.00AM)</td>
+                </tr>
+                <tr>
+                    <td id="tabledefination">15.02.2022</td>
+                    <td id="tabledefination">10.00 PM (Check in 8.30PM) </td>
+                    <td id="tabledefination">17.02.2022</td>
+                    <td id="tabledefination">09.00 AM (Check In 08.00AM)</td>
+                </tr>
+                <tr>
+                    <td id="tabledefination">26.02.2022</td>
+                    <td id="tabledefination">10.00 PM (Check in 8.30PM) </td>
+                    <td id="tabledefination">28.02.2022</td>
+                    <td id="tabledefination">09.00 AM (Check In 08.00AM)</td>
+                </tr>
+
+            </table>
+
+        </div> -->
+
+
+
+
+    </div>
+
+
+    <!-- payment method -->
+
+    <section class="PaymentMethod">
+        <div class="container">
+            <div class="text-center pb-4">
+                <h2 class="sec__title">Payment Method For<span class="our__pckg"> Bay One Cruise Ship</span></h2>
+                <h3 class="sec_title1">Choose your desired payment method <br>to book bay one ticket for your
+                    journey
+                    with bay one cruise ship Bangladesh.</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-3">
+                    <div class="Payment_col">
+                        <h3>bKash</h3>
+                        <hr class="custom__hr">
+                        <p class="payment__p">For bKash payment 2% bkash service charge will be added.</p>
+                        <p class="payment__p"><span class="payment__span">Process:</span></p>
+                        <p class="payment__p"><span class="payment__span">Dial</span> *247#, <span
+                                class="payment__span">Choose</span> "Payment"</p>
+                        <p class="payment__p"><span class="payment__span">Merchant number:</span> 01748704622</p>
+                        <p class="payment__p"><span class="payment__span">Amount:</span> xxx, <span
+                                class="payment__span">Enter Ref:</span> 111</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="Payment_col">
+                        <h3>Nagad</h3>
+                        <hr class="custom__hr">
+                        <p class="payment__p">For Nagad payment 1.7% Nagad service charge will be added.</p>
+                        <p class="payment__p"><span class="payment__span">Process:</span></p>
+                        <p class="payment__p"><span class="payment__span">Dial</span> *167#, <span
+                                class="payment__span">Select</span> "Payment"</p>
+                        <p class="payment__p"><span class="payment__span">Merchant number:</span> 01748704622</p>
+                        <p class="payment__p"><span class="payment__span">Amount:</span> xxx, <span
+                                class="payment__span">Enter Ref:</span> 111</p>
+                    </div>
+                </div>
+
+
+                <div class="col-3">
+                    <div class="Payment_col">
+                        <h3>Bank</h3>
+                        <hr class="custom__hr">
+                        <p class="payment__p"><span class="payment__span">Bank:</span> BRAC Bank Limited.</p>
+                        <p class="payment__p"><span class="payment__span">Account ID:</span> 1104204638686001</p>
+                        <p class="payment__p"><span class="payment__span">Account Name:</span> Technova</p>
+                        <p class="payment__p"><span class="payment__span">Branch:</span> CDA Avenue,Chittagong</p>
+                        <p class="payment__p"><span class="payment__span">Branch Routing No:</span> 060151481</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="Payment_col">
+                        <h3>Cash</h3>
+                        <hr class="custom__hr">
+                        <p class="payment__p"><span class="payment__span">Address:</span> Xtreme Solution, bti
+                            Landmark(4th Floor), Wireless Moor, ZakirHossain Road West Khulshi,Chattogram4000.</p>
+                        <p class="payment__p"><span class="payment__span">Phone:</span> 09613-888000</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <div class="destinations1">
+
+        <div class="destination-text">
+            <h1>Reach <span class="destination_red">Your Destination<br></span></h1>
+            <p class="destination_p">You can now take an exciting sea trip, which has given tourism on St. Martin's
+                Island a whole new dimension. To us, every moment of your trip to Saint Martin by bay one cruise is
+                priceless. That is why, we care from the moment you buy your ticket to the time you return. Take a
+                tour of Bangladesh's coastal routes on our luxury bay one ship and marvel at the beauty of the blue
+                water and the sky. All of the facilities are here, as is the peace between the sky and the blue
+                silky water, while this luxury ship sails on the ocean. This royal ship makes a sea voyage to Saint
+                Martin more pleasurable for travelers. Bangladesh's maritime tourism industry is largely untapped.
+                It is, however, going at a snail's pace. The Bay One Cruise is regarded as a forerunner in the world
+                of maritime tourism. Bay One ship will depart from Chittagong for St. Martin, a coral island off the
+                coast of Bangladesh. The passengers on this luxury ship have a number of options, including
+                overnight accommodations.</p>
+        </div>
+
+        <div class="destination_image">
+
+            <img style="width: 450px; height:450px" src="image/cruise/bo-02.jpg" alt=""
+                class="img-thumbnail rounded-circle mb-2">
+        </div>
+
+
+
+    </div>
+
+    <div class="destinations2">
+        <div class="destination_image">
+
+            <img style="width: 450px; height:450px" src="image/cruise/bo.jpg" alt=""
+                class="img-thumbnail rounded-circle mb-2">
+        </div>
+
+        <div class="destination-text1">
+            <h1>At a Glance<br> <span class="destination_red1">MV Bay One Cruise Ship</span></h1>
+            <p class="destination_p1">You can now take an exciting sea trip, which has given tourism on St. Martin's
+                Island a whole new dimension. To us, every moment of your trip to Saint Martin by bay one cruise is
+                priceless. That is why, we care from the moment you buy your ticket to the time you return. Take a
+                tour of Bangladesh's coastal routes on our luxury bay one ship and marvel at the beauty of the blue
+                water and the sky. All of the facilities are here, as is the peace between the sky and the blue
+                silky water, while this luxury ship sails on the ocean. This royal ship makes a sea voyage to Saint
+                Martin more pleasurable for travelers. Bangladesh's maritime tourism industry is largely untapped.
+                It is, however, going at a snail's pace. The Bay One Cruise is regarded as a forerunner in the world
+                of maritime tourism. Bay One ship will depart from Chittagong for St. Martin, a coral island off the
+                coast of Bangladesh. The passengers on this luxury ship have a number of options, including
+                overnight accommodations.</p>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

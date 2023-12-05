@@ -1,0 +1,80 @@
+.shedule{
+    width: 100%;
+    text-align: center;
+}
+
+.ticketPs{
+
+    font-family: "Luxia Regular";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing:1px;
+}
+  .ticketPps {
+    font-family: "Luxia Regular";
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing:1px;
+    color: #c70909; 
+    
+  }
+  #roat{
+   
+   font-size: 30px;
+   font-weight: 250px;
+   color: #57b8bb;
+
+  }
+  #tableHadding{
+      background-color: #7a9ab6;
+  }
+
+  .sheduleTable{
+    width: 90%;
+    height: 500px;
+    border: 2px solid #ddd;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5%;
+  
+  }
+
+  .month{
+    margin-top: 35px;
+    margin-left: 40%;
+    width: 200px;
+    border: 2px solid #ddd;
+    padding:15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing:2px;
+   
+  }
+
+table{
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+  border: 2px solid #ddd; 
+  border-collapse: collapse;
+  
+
+}
+th{
+  font-size: 24px;
+}
+
+
+td{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+th,td{
+  height: 50px;
+  border: 2px solid #ddd;
+
+}
